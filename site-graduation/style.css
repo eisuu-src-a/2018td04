@@ -1,0 +1,320 @@
+@charset "UTF-8";
+body {
+    background: #ddd;
+}
+.main {
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 960px;
+}
+.header {
+  background: #b67d52;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.header a {
+    width: 120px;
+}
+.gloval_navi {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.gloval_navi li {
+    font-weight: bold;
+    margin-left: 20px;
+}
+.header a, .header a:link, .header a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+.header a:hover, .header a:active, .header a:focus {
+    color: #ff8080;
+    outline: none;
+    text-decoration: underline;
+}
+.header a img {
+    width: 100%;
+}
+
+.contents {
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+.home_about {
+    display: flex;
+    flex-wrap: wrap;
+}
+.home_about h2 {
+    border-bottom: solid thin #cccccc;
+    margin-bottom: 24px;
+    font-size: 32px;
+    width: 100%;
+}
+.home_about h2 span {
+    font-size: 16px;
+    margin-left: 16px;
+}
+.home_about_image {
+    width: 288px;
+}
+.home_about_image img {
+    width: 100%;
+}
+.home_about_text {
+    margin-right: 32px;
+    width: 608px;
+}
+.main_title {
+    background: url("images/pic_home_h1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    margin: 0;
+    overflow: hidden;
+}
+.main_title img {
+    display: block;
+    height: 91px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 252px;
+    width: 750px;
+}
+.home_info {
+    display: flex;
+    margin-top: 64px;
+}
+.home_info h2 {
+    border-bottom: solid thin #cccccc;
+    margin-bottom: 24px;
+    font-size: 32px;
+    width: 100%;
+}
+.home_info h2 span {
+    font-size: 16px;
+    margin-left: 16px;
+}
+.home_info_recommend {
+    margin-right: 32px;
+    width: 608px;
+}
+.home_info_recommend_image img {
+    transition: all 0.2s linear;
+    width: 100%;
+}
+.home_info_recommend_image img:hover {
+    opacity: 0.75;
+    transition: all 0.2s linear;
+}
+.home_info_recommend_text {
+    margin-top: 16px;
+}
+.home_info_view {
+    width: 288px;
+}
+.home_info_view_image img {
+    transition: all 0.2s linear;
+    width: 100%;
+}
+.home_info_view_image img:hover {
+    opacity: 0.75;
+    transition: all 0.2s linear;
+}
+.home_info_view_text {
+    margin-top: 16px;
+}
+.home_menu {
+    margin-top: 64px;
+}
+.home_menu h2 {
+    border-bottom: solid thin #cccccc;
+    margin-bottom: 24px;
+    font-size: 32px;
+    width: 100%;
+}
+.home_menu h2 span {
+    font-size: 16px;
+    margin-left: 16px; 
+}
+.home_menu_image {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.home_menu_image li {
+    margin-left: 32px;
+    width: 288px;
+}
+.home_menu_image li:first-child {
+    margin-left: 0;
+}
+.home_menu_image li img {
+    transition: all 0.2s linear;
+    width: 100%;
+}
+.home_menu_image li img:hover {
+    opacity: 0.75;
+    transition: all 0.2s linear;
+}
+.home_news {
+    margin-top: 64px;
+}
+.home_news h2 {
+    border-bottom: solid thin #cccccc;
+    margin-bottom: 24px;
+    font-size: 32px;
+    width: 100%;
+}
+.home_news h2 span {
+    font-size: 16px;
+    margin-left: 16px;
+}
+.home_news span {
+    display: inline-block;
+    margin-right: 16px;
+    width: 90px;
+}
+.sidebar {
+   background: rgba(255,255,255,0.75);
+   border: solid thin #cccccc;
+   bottom: 150px;
+   height: 120px;
+   padding-bottom: 8px;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-top: 8px;
+   position: fixed;
+   right: 8px;
+   width: 48px; 
+}
+.sidebar_instagram {
+    display: block;
+    margin-bottom: 8px;
+    width: 48px;
+}
+.sidebar_instagram img {
+    transition: all 0.2s linear;
+    width: 100%;
+}
+.sidebar_instagram img:hover {
+    opacity: 0.75;
+    transition: all 0.2s linear;
+}
+.sidebar_twitter {
+    display: block;
+    width: 48px;
+}
+.sidebar_twitter img {
+    transition: all 0.2s linear;
+    width: 100%;
+}
+.sidebar_twitter img:hover {
+    opacity: 0.75;
+    transition: all 0.2s linear;
+}
+footer {
+    background: #fff;
+    padding-bottom: 20px;
+    padding-top: 64px;
+    text-align: center;
+    width: 100%; 
+}
+.footer_logo {
+    background: url("assets/images/img_logo_r.png") no-repeat;
+    background-size: 109px 46px;
+    display: block;
+    height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    width: 109px;
+}
+.footer_logo img {
+    transition: all 0.2s linear;
+    width: 100%;
+}
+.footer_logo:hover img {
+    opacity: 0;
+}
+.footer_copyright {
+    border-bottom: solid thin #cccccc;
+    border-top: solid thin #cccccc;
+    font-size: 12px;
+    height: 64px;
+    line-height: 64px;
+    margin-bottom: 32px;
+    margin-top: 64px;
+    position: relative;
+}
+.footer_copyright a {
+    background: url("assets/images/ico_arrow_pagetop_r.png") no-repeat;
+    background-size: 48px 48px;
+    display: block;
+    height: 48px;
+    line-height: 1;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 48px;
+}
+.footer_copyright a img {
+    width: 100%;
+}
+.footer_copyrighta:hover img {
+    opacity: 0;
+}
+.inquiry_main_title {
+    background: url("images/pic_inquiry_h1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 312px;
+    overflow: hidden;
+    width: 100%;
+}
+.inquiry_main_title img {
+    display: block;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 203px;
+}
+.inquiry_form h2 {
+    width: 100%;
+}
+.inquiry_form table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+}
+.inquiry_form td {
+    padding-bottom: 15px;
+}
+.inquiry_form input[type="text"] {
+    padding: 2px;
+}
+.inquiry_form textarea {
+    padding: 2px;
+    width: 100%;
+}
+.require {
+    color: #ff0000;
+    margin-left: 8px;
+}
+.submit_button {
+    background-color: #5a493f;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 280px;
+}
+
